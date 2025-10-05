@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1,6;
+    font-family: Google Sans Code, Arial, sans-serif;
+}
+main {
+    background-color: powderblue;
+    color: black;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: max-content;
+}
+.introducao {
+    display: flow-root;
+}
+.img {
+    float: left;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+section {
+    margin-bottom: 2rem;
+}
+section h2 {
+    margin-bottom: 1rem;
+}
+h1 {
+    margin-bottom: 1rem;
+}
+main p {
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    color: gray;
+    font-size: 0.8rem;
+}
