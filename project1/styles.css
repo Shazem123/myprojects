@@ -3,40 +3,62 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
-    font-family: Google Sans Code, Arial, sans-serif;
 }
-main {
-    background-color: powderblue;
-    color: black;
-    margin: 2rem;
-    padding: 2rem;
-    max-width: max-content;
+
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(255, 116, 24);
+    --background-color: rgb(41, 41, 41);
 }
-.introducao {
-    display: flow-root;
+
+body{ 
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('188687.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4rem;
 }
-.img {
-    float: left;
-    margin-right: 1.5rem;
+
+h1 {
+    text-align: center;
     margin-bottom: 2rem;
-    max-width: 300px;
-    width: 100%;
-    height: auto;
+    font-size: 3rem;
 }
+
+main {
+    background-color: var(--background-color);
+    padding: 2rem;
+    border-radius: 30px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
 section {
     margin-bottom: 2rem;
 }
-section h2 {
-    margin-bottom: 1rem;
+
+ul {
+    margin-left: 1.5rem;
 }
-h1 {
-    margin-bottom: 1rem;
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
 }
-main p {
+
+p {
     text-align: justify;
+    text-indent: 1.5rem;
 }
-footer {
+
+footer p {
     text-align: center;
-    color: gray;
-    font-size: 0.8rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
 }
