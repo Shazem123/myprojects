@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+:root {
+    --primary-color: rgb(38, 31, 70);
+    --secondary-color: rgb(255, 116, 24);
+    --background-color: rgb(240, 240, 240);
+}
+
+header {
+    height: auto;
+    background-color: var(--background-color);
+    margin-bottom: 15vh;
+}
+
+nav {
+    border-bottom: 3px solid rgb(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Changed from space-evenly */
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    padding: 0 2rem; /* Added padding for spacing */
+    position: fixed;
+    z-index: 1000;
+    background-color: var(--background-color);
+    top: 0;
+    left: 0;
+}
+
+nav img {
+    object-fit: contain;
+    height: 20vh;
+    width: auto;
+    margin-left: 2rem; /* Added margin to push left */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.hero {
+    height: calc(100vh - 12vh); /* Adjusted to account for fixed navbar height */
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/project2/images/Gemini_Generated_Image_vdoekqvdoekqvdoe.png');
+    background-size: cover;
+    background-position: center;
+    background-position-y: 75%; /* Adjust this percentage to move the image up or down */
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    padding: 1rem 4rem;
+    margin-top: 12vh;
+}
+
+.aegispic {
+    height: 70vh;
+    width: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    margin: 5% 5% 0 0;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-right: 15%;
+}
+
+.boxtext button {
+    width: fit-content;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.boxtext button:hover {
+    background-color: rgb(255, 90, 0);
+}
+
+.boxtext h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.boxtext p {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 1.5rem;
+}
+
+main {
+    padding: 0 4rem;
+}
+
+.featurebigbox > h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10vh;
+}
+
+.featurecontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;  /* Changed from center to stretch */
+    gap: 2rem;
+}
+
+.feature {
+    width: 30%;
+    display: flex;          /* Added */
+    flex-direction: column; /* Added */
+    align-items: center;    /* Added */
+}
+
+.feature img {
+    height: 50vh;
+    width: 100%;           /* Changed from auto */
+    object-fit: cover;     /* Added */
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.feature p {
+    text-align: justify;
+    margin-top: 1rem;      /* Changed from auto */
+    width: 100%;           /* Changed from 40% */
+}
