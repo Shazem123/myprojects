@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30vw;
+    background-color: #328511;
+    color: #f7dad9;
+    min-height: 10vh;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 4px solid #443730;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    font-family: 'Source Sans 3';
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #f7dad9;
+}
+
+a:hover {
+    color: #c7afae;
+}
+
+.logo {
+    font-family: 'Jua';
+    font-size: 2rem;
+    font: bold;
+    letter-spacing: 2px;
+}
+
+.hero {
+    background-image:
+        url(depositphotos_63079453-stock-photo-gardening.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    min-height: 100vh;
+    padding-top: 10vh;
+}
+
+.bigtitle {
+    font-family: 'Jua';
+    font-size: 4.5rem;
+    font-weight: bolder;
+    color: #550c18;
+    -webkit-text-stroke:1px #f7dad9;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.subtitle {
+    font-family: 'Source Sans 3';
+    font-size: 1.2rem;
+    color: #f7dad9;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.cta {
+    background-color:#328511;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-family: 'Source Sans 3';
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.cta:hover {
+    background-color: #443730;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color:#665951;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans 3';
+    border-top: 1px black solid;
+}
