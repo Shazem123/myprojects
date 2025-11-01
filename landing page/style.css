@@ -6,14 +6,13 @@
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    gap: 30vw;
     background-color: #328511;
     color: #f7dad9;
     min-height: 10vh;
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem 5vw;
     border-bottom: 4px solid #443730;
     position: sticky;
     top: 0;
@@ -61,14 +60,15 @@ a:hover {
     font-family: 'Jua';
     font-size: 4.5rem;
     font-weight: bolder;
-    color: #550c18;
-    -webkit-text-stroke:1px #f7dad9;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     margin-bottom: 1rem;
 }
 
 .wrapper {
     background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
     padding: 2rem;
 }
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .cta {
-    background-color:#328511;
+    background-color: #665951;
     padding: 1rem;
     font-size: 1.2rem;
     border: 1px solid white;
